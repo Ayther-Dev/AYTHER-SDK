@@ -1,6 +1,7 @@
 # AYTHER SDK
 
 > **Estado:** Experimental / Developer Preview  
+> **Licencia:** [Mozilla Public License 2.0 (`MPL-2.0`)](LICENSE) — ver [NOTICE.md](NOTICE.md)  
 > **Aviso:** Las APIs, la ABI y los contratos públicos están en desarrollo activo y sujetos a cambios incompatibles antes de la versión 1.0.
 
 **AYTHER SDK** es el conjunto público de contratos, APIs, herramientas CLI, ejemplos y pruebas de conformidad para interactuar con **AYTHER Engine**. Permite crear, inspeccionar, firmar y validar paquetes de recursos (`.ay`) de forma abierta e independiente, sin depender de herramientas propietarias como AYTHER Lab.
@@ -173,10 +174,11 @@ El SDK implementa y exige:
 
 ## Licencia, Compatibilidad y Marcas
 
-* **Licencia de Código:** En proceso de definición. La ausencia actual de un archivo `LICENSE` en la raíz implica que todos los derechos están reservados hasta la publicación de las licencias abiertas oficiales.
+* **Licencia de Código:** Salvo que un archivo indique términos distintos, el código fuente, los contratos, esquemas, pruebas, herramientas y documentación de este repositorio se publican bajo la [Mozilla Public License 2.0 (`MPL-2.0`)](LICENSE); consulta [NOTICE.md](NOTICE.md) para el alcance del software cubierto. MPL-2.0 es una licencia copyleft a nivel de archivo con obligaciones de disponibilidad de código fuente y conservación de avisos en redistribuciones; en caso de conflicto con este resumen prevalece el texto de la licencia. El software se proporciona sin garantías según los términos de MPL-2.0.
+* **Límites de Producto y Dependencias:** Las dependencias de terceros conservan sus propias licencias y avisos. Otros productos y servicios de AYTHER (incluidos AYTHER Engine, Runtime, Tessera, Lab, Play, Play CE, Web y Hub) son obras separadas con sus propios repositorios, términos y lanzamientos, y no quedan licenciados por este repositorio. Las ROMs, imágenes BIOS, cores de emulación, packs `.ay` y assets de juegos de terceros no están cubiertos por MPL-2.0 salvo que sus respectivos titulares lo indiquen expresamente.
 * **Versionado:**
   * El SDK adoptará **SemVer** a partir de la versión `1.0.0`.
   * La especificación del formato `.ay` y la ABI del motor mantienen ciclos de versionado independientes de la distribución del SDK.
-* **Marcas Registradas:** `AYTHER`, sus logotipos y elementos de identidad visual son marcas del proyecto AYTHER. Los nombres comerciales de consolas, fabricantes o videojuegos mencionados pertenecen exclusivamente a sus respectivos titulares y se usan solo con fines de identificación técnica e interoperabilidad.
+* **Marcas Registradas:** MPL-2.0 no concede derechos sobre marcas registradas, marcas de servicio, logotipos, respaldo ni identidad visual más allá de lo necesario para cumplir los avisos de licencia. `AYTHER`, sus logotipos y elementos de identidad visual son marcas del proyecto AYTHER. Los nombres comerciales de consolas, fabricantes o videojuegos mencionados pertenecen exclusivamente a sus respectivos titulares y se usan solo con fines de identificación técnica e interoperabilidad.
 
 ---

@@ -1,6 +1,7 @@
 # AYTHER SDK
 
 > **Status:** Experimental / Developer Preview  
+> **License:** [Mozilla Public License 2.0 (`MPL-2.0`)](LICENSE) — see [NOTICE.md](NOTICE.md)  
 > **Notice:** Public APIs, ABI, and contracts are under active development and subject to breaking changes prior to version 1.0.
 
 **AYTHER SDK** is the open suite of contracts, APIs, CLI tooling, examples, and conformance tests used to integrate with **AYTHER Engine**. It allows developers to create, inspect, sign, and validate asset packs (`.ay`) independently, without relying on proprietary authoring environments such as AYTHER Lab.
@@ -172,8 +173,9 @@ The SDK enforces the following defensive principles:
 
 ## Licensing, Versioning & Trademarks
 
-* **Source Code License:** Pending formal publication. The absence of a root `LICENSE` file indicates all rights are reserved until official open-source licenses are designated.
+* **Source Code License:** Unless a file states different terms, the source code, contracts, schemas, tests, tools, and documentation in this repository are licensed under the [Mozilla Public License 2.0 (`MPL-2.0`)](LICENSE); see [NOTICE.md](NOTICE.md) for the scope of covered software. MPL-2.0 is a file-level copyleft license with source-availability and notice obligations for distributions; the license text controls in case of conflict with this summary. The software is provided without warranty under the terms of MPL-2.0.
+* **Product & Dependency Boundaries:** Third-party dependencies retain their own licenses and notices. Other AYTHER products and services (including AYTHER Engine, Runtime, Tessera, Lab, Play, Play CE, Web, and Hub) are separate works with their own repositories, terms, and releases, and are not licensed by this repository. ROMs, BIOS images, emulator cores, `.ay` content packs, and third-party game assets are not covered by MPL-2.0 unless their respective rights holders expressly state otherwise.
 * **Versioning Policy:**
   * The SDK will follow **Semantic Versioning (SemVer)** starting with release `1.0.0`.
   * The `.ay` format specification and engine ABI maintain decoupled version tracks from SDK distribution releases.
-* **Trademarks:** `AYTHER` and associated logos and branding are trademarks of the AYTHER Project. Third-party console names, brand names, and game titles are referenced strictly for technical identification, compatibility, and interoperability purposes under fair use.
+* **Trademarks:** MPL-2.0 grants no trademark, service-mark, logo, endorsement, or branding rights beyond what is necessary to comply with license notices. `AYTHER` and associated logos and branding are trademarks of the AYTHER Project. Third-party console names, brand names, and game titles are referenced strictly for technical identification, compatibility, and interoperability purposes.
